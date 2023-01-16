@@ -1,11 +1,6 @@
 import React, { useState } from 'react'
 import "./loginform.css"
 
-
-
-
-
-
 export default function LoginForm() {
     const [popupStyle, showPopup] = useState("hide");
     const popup = () =>{
@@ -31,7 +26,5 @@ return (
         </div>
 
     </div>
-
 )
 }
-
